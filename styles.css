@@ -256,6 +256,7 @@ p{
     text-align: center;
     }
     .card{
+        margin: 20px;
         justify-content: center;
         text-align: center;
     }
