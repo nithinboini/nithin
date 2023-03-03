@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+}
+
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.item li{
+    display: inline;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.item li:hover{
+
+    background-color: aqua;
+}
+
+
+/* .image{
+    height: 5px;
+}
+.nav img{
+    width: 100%;
+} */
+
+.btn{
+    color: #fff;
+    padding: 5px;
+    border-radius: 7%;
+    background-color: rgba(0, 0, 0, 0.712);
+    text-align: center;
+}
+.bx{
+    text-align: center;
+}
+.head{
+    display: flex;
+    /* flex-direction: row; */
+    height: auto;
+    /* margin-top: 40px; */
+    background-color: rgba(0, 0, 0, 0.507);
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+.image{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    /* justify-content: flex-end;
+    align-content: flex-end;
+    align-items: flex-end; */
+}
+.image img{
+    width:100%;
+}
+.text{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+     
+    width: 50%;
+    
+}
+.bt{
+   
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex; 
+}
+.bt a{
+    color: rgb(206, 164, 164);
+}
+.btn1{
+    border-style: solid;
+   border-color: #fff;
+    /* border: 1px rgba(214, 19, 19, 0.555); */
+    display: flex;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 5px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.521);
+}
+ 
+
+.blue{
+    color: aqua;
+}
+.text a{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+.red h2{
+    color: rgba(98, 19, 189, 0.863);
+}
+
+.top{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.row{
+    justify-content: space-around;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card h4{
+    text-align: left;
+    padding-left: 10px;
+    line-height: 35px;
+}
+.card{
+    
+    width: 400px;
+    text-align: center;
+background-color: #fff;
+justify-content: space-around;
+box-shadow: -1px 5px 5px rgba(0, 0, 0, 0.397);
+/* margin: 5px;
+margin-left: 15px; */
+height: auto;
+}
+
+.card-head{
+    text-align: center;
+}
+
+
+
+
+.button{
+    display: inline-block;
+   padding: 5px;
+    background-color: rgba(255, 0, 0, 0.562);
+    border-radius: 5%;
+    line-height: 35px;
+    margin-bottom: 5px;
+    
+    
+}
+
+.button a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.experience{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.548);
+    height: auto;
+}
+.image1{
+    background-color: #fff;
+    width:50%;
+}
+.image1 img{
+width: 100%;
+}
+
+.years{
+    width: 50%;
+    text-align: center;
+}
+.y{
+    margin-bottom: 5px;
+}
+
+.exp{
+    color: #ffffffd3;
+    text-align: left;
+    line-height: 25px;
+    padding-left: 7px;
+}
+
+/* address */
+
+
+
+.care-of{
+    background-color: rgba(0, 0, 0, 0.548);
+    background-image: linear-gradient(rgba(130, 225, 238, 0.418),rgba(0, 0, 255, 0.425));
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+.address{
+    
+    padding-left: 10px;
+    padding-top: 5px;
+    height: auto;
+   
+    width: 50%;
+}
+
+p{
+    font-size: 20px;
+    margin-top: 15px;
+    color: #ffffff;
+}
+.mail{
+    font-size:30px;
+    color: #fff;
+}
+.social{
+    text-align: center;
+    width: 50%;
+}
+
+
+
+.name{
+    color: #fff;
+    padding: 10px;
+}
+
+
+
+@media screen and (max-width:480px) {
+    .row{
+    justify-content: center;
+    text-align: center;
+    }
+    .card{
+        justify-content: center;
+        text-align: center;
+    }
+    .image{
+        width: 50%;
+    }
+    .button{
+        display: block;
+    }
+    .mail{
+        font-size: 20px;
+    }
+    
+    
+}
